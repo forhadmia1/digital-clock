@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95VH;
+}
+.clock-container{
+    background-color:#2d3436;
+    width: 360px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 35px;
+}
+.walpaper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, red,yellow,blue);
+    height: 120px;
+    width: 380px;
+    border-radius: 10px;
+    animation: tiktik 2s linear infinite;
+
+}
+h2{
+   background:linear-gradient(45deg, red,yellow,blue); 
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+@keyframes tiktik {
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
